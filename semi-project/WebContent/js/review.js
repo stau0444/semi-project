@@ -17,7 +17,3 @@ $(window).resize(function() {
 		$('#carouselExampleIndicators').show();
 	}
 });
-
-$(window).onload(function() {
-
-});
