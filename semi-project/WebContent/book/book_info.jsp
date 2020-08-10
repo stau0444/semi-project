@@ -102,7 +102,7 @@
 					<p class="border-bottom border-success"><%=dto.getBcompany()%>,
 						<%=dto.getBdate()%></p>
 					
-						<h3>줄거리</h3>
+						<h3>책소개</h3>
 						<div style="font-size: 13px" id="story" class="scroll-slim mb-1"><%=dto.getBstory().replace("*", "<br/>")%></div>
 						
 					<!-- 리뷰테이블 -->
@@ -239,7 +239,6 @@
 					method : "get",
 					url : "bookmark.jsp",
 					data : {"id" : "<%=id%>", bnum : <%=num%>},
-				
 					success : function(data){
 						alert(data.result);
 						

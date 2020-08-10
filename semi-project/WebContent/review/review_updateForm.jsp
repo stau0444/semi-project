@@ -33,7 +33,7 @@
 	<div class="container-sm py-3">
 		<div class="my-4 py-4">
 			
-			<h3 class="p-2">Review 작성</h3>
+			<h3 class="p-2">Review 수정</h3>
 			<hr class="mt-0" />
 			<form id="myForm" action="review_update.jsp" method="post">
 				<input type="hidden" name="rnum" value="<%=rnum%>"/>
@@ -165,6 +165,7 @@
 			$('#star i').addClass("on");
 		}	
 		$("strong").text(getNum);
+		$("#rscore").val(getNum);
 	})
 
 	$('#star i').on('click',function(){

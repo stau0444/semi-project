@@ -74,7 +74,7 @@
 	cursor: pointer;
 }
 .nameContent {
-		width        : 100%;     /* 너비는 변경될수 있습니다. */
+		width        : 280px;     /* 너비는 변경될수 있습니다. */
 		text-overflow: ellipsis;  /* 위에 설정한 100px 보다 길면 말줄임표처럼 표시합니다. */
 		white-space  : nowrap;    /* 줄바꿈을 하지 않습니다. */
 		overflow     : hidden;    /* 내용이 길면 감춤니다 */
